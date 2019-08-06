@@ -87,7 +87,18 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+		padding: 0em 0 10em 0 ;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.giphy.com/media/hWvvQg5lKZHs6GTILp/giphy.gif");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.giphy.com/media/hWvvQg5lKZHs6GTILp/giphy.gif");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.giphy.com/media/hWvvQg5lKZHs6GTILp/giphy.gif");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.giphy.com/media/hWvvQg5lKZHs6GTILp/giphy.gif");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+		width: 100;
+		height: 100;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3823,6 +3834,8 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: center;
+		width: 100;
+		height: 100;
 	}
 
 		#main > header h2 {
@@ -3875,12 +3888,16 @@ input, select, textarea {
 				#main > header h2 {
 					font-size: 1.25em;
 					margin: 0 0 1em 0;
+						width: 100;
+		height: 100;
 				}
 
 		}
 
 	body.is-mobile #main > header {
-		background-attachment: scroll;
+		background-attachment: fixed;
+		width: 100;
+		height: 100;
 	}
 
 /* Footer */
@@ -3981,7 +3998,15 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #page-wrapper {
-		background: none;
+	/*	background: none;*/
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.giphy.com/media/hWvvQg5lKZHs6GTILp/giphy.gif");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.giphy.com/media/hWvvQg5lKZHs6GTILp/giphy.gif");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.giphy.com/media/hWvvQg5lKZHs6GTILp/giphy.gif");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.giphy.com/media/hWvvQg5lKZHs6GTILp/giphy.gif");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+				background-attachment: fixed;
 	}
 
 	body.is-mobile.landing #banner,
@@ -3994,9 +4019,11 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 				background-attachment: fixed;
+				height: 100;
+				width: 100;
 
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color: #1d242a;*/
 	}
